@@ -22,11 +22,3 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-
-$(document).ready(function() {
-  $('#sky').jQlouds({
-    minClouds: 3,
-    maxClouds: 17,
-    wind: true
-  });
-});
