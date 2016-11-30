@@ -24,5 +24,8 @@
 // Place any jQuery/helper plugins in here.
 
 $(document).ready(function() {
-  $('#sky').jQlouds();
+  $('#sky').jQlouds({
+    minClouds: 3,
+    maxClouds: 17,
+  });
 });
