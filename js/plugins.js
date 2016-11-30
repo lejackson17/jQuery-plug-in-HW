@@ -22,3 +22,9 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+$(document).ready(function() {
+    $('#table_id').DataTable( {
+        "order": [[ 0, "desc" ]]
+    } );
+} );
